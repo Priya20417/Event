@@ -24,11 +24,20 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.pankaja.trial"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
+    "plugins": [
+      [
+        "@viro-community/react-viro",
+        {
+          "androidXrMode": "AR" 
+        }
+      ]
+    ],
     "description": "A Trial Application for DIVR"
   }
 }

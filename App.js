@@ -1,5 +1,5 @@
 import * as React from 'react';
-import MainContainer from './navigation/MainContainer';
+import * as serviceWorkerRegistration from "./src/serviceWorkerRegistration";
 import Drawers from './navigation/Drawers';
 function App() {
   return (
@@ -8,3 +8,4 @@ function App() {
 }
 
 export default App;
+serviceWorkerRegistration.register();

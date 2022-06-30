@@ -9,6 +9,8 @@ import Bookmark from './screens/Bookmark';
 import Barcode from './screens/Barcode';
 import Meeting from './screens/Meeting';
 import MainContainer from './MainContainer';
+import Seeall from './screens/Seeall';
+
 const Drawer = createDrawerNavigator();
 function Drawers() {
     return (
@@ -18,6 +20,7 @@ function Drawers() {
            <Drawer.Screen name="Profile" component={ Profile } />
            <Drawer.Screen name="BarCode" component={ Barcode } />
            <Drawer.Screen name="Bookmark" component={ Bookmark } />
+           <Drawer.Screen name="Seeall" component={ Seeall } />
            <Drawer.Screen name="Meeting" component={ Meeting } />
         </Drawer.Navigator>
   

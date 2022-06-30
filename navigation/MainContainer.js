@@ -16,7 +16,6 @@ const MapsName = "Map";
 const VisitName = "Visit";
 const MatchName = "Match";
 
-
 const Tab = createBottomTabNavigator();
 function MainContainer() {
   return (
